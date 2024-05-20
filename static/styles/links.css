@@ -1,0 +1,18 @@
+body {
+    color: purple
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;    
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+}
