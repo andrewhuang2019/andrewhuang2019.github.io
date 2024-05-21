@@ -12,11 +12,18 @@ h2 {
     justify-content: center;    
 }
 
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
+
 #leadership {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #scholarship {
+    display: flex;
+    justify-content: space-between;
 
 }

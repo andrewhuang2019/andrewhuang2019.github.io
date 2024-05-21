@@ -2,3 +2,13 @@
 body {
     color: blue
 }
+
+#pages-bar {
+    display: flex;
+    justify-content: start;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
