@@ -6,16 +6,6 @@ body {
     background-size: cover;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;    
-}
-
 #pages-bar {
     display: flex;
     justify-content: center;
@@ -39,11 +29,21 @@ h2 {
 }
 
 .vertical-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
+#title {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
 #leadership {
+    
     display: flex;
     justify-content: space-evenly;
 }
@@ -61,6 +61,7 @@ h2 {
 }
 
 #scholarship {
+    
     display: flex;
     justify-content: space-evenly;
 
