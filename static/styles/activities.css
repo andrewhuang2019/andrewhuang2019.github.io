@@ -57,3 +57,18 @@ body {
     padding-bottom: 15px;
     
 }
+
+#involvement {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vertical-container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    border-radius: 30px;
+    width: 300px;
+    text-align: left;
+    justify-content: center;
+}
