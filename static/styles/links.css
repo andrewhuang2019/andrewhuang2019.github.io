@@ -1,15 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;    
+    color: purple;
 }
 
 #pages-bar {
@@ -34,13 +25,23 @@ h2 {
     border-radius: 20px;
 }
 
+#title {
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
 #links {
     display: flex;
     justify-content: space-around;
 }
 
-#title {
-    color: purple;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+.link {
+    background-color: black;
+    font-size: 24px;
+    border-radius: 16px;
+    padding: 20px;
+    padding-right: 100px;
 }
